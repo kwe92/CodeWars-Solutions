@@ -26,4 +26,6 @@ function narcissistic(number) {
   return sum === number;
 }
 
-console.log(`Raised Array: ${narcissistic(153)}`);
+const num = 153;
+
+console.log(`${num} is a Narcissistic Number: ${narcissistic(153)}`);
